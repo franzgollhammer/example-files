@@ -1,0 +1,45 @@
+# Web Application Configuration
+
+app:
+  name: 'MyWebApp'
+  version: '1.0.0'
+
+server:
+  host: 'localhost'
+  port: 8080
+
+database:
+  type: 'postgresql'
+  host: 'db.example.com'
+  port: 5432
+  username: 'dbuser'
+  password: 'securepassword'
+  name: 'mywebapp_db'
+
+logging:
+  level: 'DEBUG'
+  file: '/var/log/mywebapp.log'
+
+security:
+  authentication:
+    method: 'JWT'
+    secret_key: 'supersecretkey'
+  cors:
+    allowed_origins:
+      - 'http://example.com'
+      - 'http://anotherexample.com'
+    allowed_methods:
+      - 'GET'
+      - 'POST'
+      - 'PUT'
+      - 'DELETE'
+
+features:
+  - name: 'feature1'
+    enabled: true
+  - name: 'feature2'
+    enabled: false
+
+emails:
+  support: 'support@example.com'
+  no_reply: 'no-reply@example.com'

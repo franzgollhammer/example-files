@@ -1,0 +1,11 @@
+id,name,email,phone,city
+1,Alice,alice@example.com,555-0101,Seattle
+2,Bob,bob@example.com,555-0102,Denver
+3,Charlie,charlie@example.com,555-0103,Austin
+4,Denise,denise@example.com,555-0104,Chicago
+5,Eric,eric@example.com,555-0105,Boston
+6,Farah,farah@example.com,555-0106,Portland
+7,Gabriel,gabriel@example.com,555-0107,San Diego
+8,Helen,helen@example.com,555-0108,Atlanta
+9,Ian,ian@example.com,555-0109,Miami
+10,Jasmine,jasmine@example.com,555-0110,New York
